@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.sgchen</groupId>
+    <artifactId>security-crypto</artifactId>
+    <version>1.0.45</version>
+    <packaging>pom</packaging>
+    <name>sgchen-security-crypto</name>
+    <description>Security encryption, decryption, and desensitization components</description>
+    <url>https://gitee.com/chenshaogui/sgchen-security-crypto</url>
+
+    <modules>
+        <module>security-crypto-core</module>
+        <module>security-crypto-mybatis</module>
+        <module>security-crypto-transfer</module>
+    </modules>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <spring-boot.version>2.7.2</spring-boot.version>
+        <mybatis-plus.version>3.5.12</mybatis-plus.version>
+        <hutool.version>5.8.40</hutool.version>
+        <fastjson.version>2.0.57</fastjson.version>
+        <bcprov.version>1.81</bcprov.version>
+        <commons-lang3.version>3.18.0</commons-lang3.version>
+        <projectlombok.version>1.18.38</projectlombok.version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>${spring-boot.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>com.sgchen</groupId>
+                <artifactId>security-crypto-core</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-compiler-plugin</artifactId>
+                    <version>3.8.1</version>
+                    <configuration>
+                        <source>${maven.compiler.source}</source>
+                        <target>${maven.compiler.target}</target>
+                        <encoding>${project.build.sourceEncoding}</encoding>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
+</project>

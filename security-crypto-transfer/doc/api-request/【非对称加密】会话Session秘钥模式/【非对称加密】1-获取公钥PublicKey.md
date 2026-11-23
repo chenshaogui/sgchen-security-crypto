@@ -1,0 +1,10 @@
+Get请求：
+localhost:9898/data-security/api/asymmetricTSC/public-key
+
+返回数据：
+```html
+{
+"publicKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqWtKwnJSCMofFtnkkee5aNo3SYSLFa8mBQb102RFq+4Y5wZhE8B9Lz55YlrOvKfXWDSZC+Ufw0yp+3m3xnm9vEl7rDMx3ltQQwxzUq6y9lPQU3nLQwIQaiZRuTjZcxU6B2yUt2MhXA38hlHnMaJTV5QXbsJK7NeH8JfYbUhIG0p6vs0/8icT35riNDupI3mt1zGhCcHiRp5zpC5GcSUSKBXTZQkxq59NpGyYy1cKelnVvHKSwwk3tfsXW6mL9Pql/bwOc8RSwid8ONB/Z7eeng95cz2DdEdIXbmZeVej/pQLR31YYr0fNnhEDgoLiF5OsQWCDrwHr92XBLDyLw9JrwIDAQAB",
+"version": "55e62412de674e789bb3821782c4f76d"
+}
+```
