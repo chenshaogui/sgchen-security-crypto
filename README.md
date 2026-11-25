@@ -61,7 +61,7 @@ SpringBoot+MyBatis-Plus ，HuTool的工具包、Lombok插件以及Bouncy Castle�
 #### 引入加解密工具Maven包
 ```xml
 <dependency>
-    <groupId>com.sgchen</groupId>
+    <groupId>io.gitee.chenshaogui</groupId>
     <artifactId>security-crypto-mybatis</artifactId>
     <version>1.0.45</version>
 </dependency>
@@ -271,7 +271,7 @@ SpringBoot+MyBatis-Plus ，HuTool的工具包、Lombok插件以及Bouncy Castle�
 #### 引入加解密工具Maven包
 ```xml
 <dependency>
-    <groupId>com.sgchen</groupId>
+    <groupId>io.gitee.chenshaogui</groupId>
     <artifactId>security-crypto-transfer</artifactId>
     <version>1.0.45</version>
 </dependency>

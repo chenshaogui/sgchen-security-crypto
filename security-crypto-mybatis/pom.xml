@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.sgchen</groupId>
+        <groupId>io.gitee.chenshaogui</groupId>
         <artifactId>security-crypto</artifactId>
         <version>1.0.45</version>
         <relativePath>../pom.xml</relativePath>
@@ -34,7 +34,7 @@
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>com.sgchen</groupId>
+            <groupId>io.gitee.chenshaogui</groupId>
             <artifactId>security-crypto-core</artifactId>
         </dependency>
     </dependencies>
